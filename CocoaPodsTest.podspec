@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaPodsTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '我的一个测试'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'CocoaPodsTest/Classes/**/*'
   s.vendored_frameworks = 'CocoaPodsTest/Classes/StaticLib.framework'
+  s.frameworks = 'Foundation'
   
   # s.resource_bundles = {
   #   'CocoaPodsTest' => ['CocoaPodsTest/Assets/*.png']
